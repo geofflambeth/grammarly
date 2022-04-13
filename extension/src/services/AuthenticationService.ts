@@ -11,6 +11,7 @@ import { GrammarlyAuthContext } from 'unofficial-grammarly-api'
 const COOKIE_KEY = 'vscode-grammarly-cookie'
 const CLIENTS: Record<string, string> = {
   vscode: 'extensionVSCode',
+  vscodium: 'extensionVSCode',
   'vscode-insiders': 'extensionVSCodeInsiders',
 }
 
